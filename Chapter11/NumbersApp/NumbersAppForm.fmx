@@ -1,0 +1,45 @@
+object FormNumbers: TFormNumbers
+  Left = 0
+  Top = 0
+  Caption = 'Numbers App'
+  ClientHeight = 480
+  ClientWidth = 492
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Panel1: TPanel
+    Align = Top
+    Size.Width = 492.000000000000000000
+    Size.Height = 57.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object NumberBox1: TNumberBox
+      Touch.InteractiveGestures = [LongTap, DoubleTap]
+      TabOrder = 0
+      Cursor = crIBeam
+      DecimalDigits = 0
+      Max = 100000.000000000000000000
+      Position.X = 24.000000000000000000
+      Position.Y = 16.000000000000000000
+    end
+    object BtnConvert: TButton
+      Position.X = 144.000000000000000000
+      Position.Y = 16.000000000000000000
+      TabOrder = 1
+      Text = 'Convert'
+      OnClick = BtnConvertClick
+    end
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Size.Width = 492.000000000000000000
+    Size.Height = 423.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 488.000000000000000000
+    Viewport.Height = 419.000000000000000000
+  end
+end
