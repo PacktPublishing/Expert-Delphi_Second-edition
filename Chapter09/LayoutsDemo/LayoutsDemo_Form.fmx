@@ -1,0 +1,700 @@
+object TabbedForm: TTabbedForm
+  Left = 0
+  Top = 0
+  Caption = 'TabbedForm'
+  ClientHeight = 593
+  ClientWidth = 468
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object HeaderToolBar: TToolBar
+    Anchors = []
+    Size.Width = 468.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object ToolBarLabel: TLabel
+      Align = Contents
+      Size.Width = 468.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'toollabel'
+      TextSettings.HorzAlign = Center
+      Text = 'Layouts Demo'
+    end
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    FullSize = True
+    Size.Width = 468.000000000000000000
+    Size.Height = 545.000000000000000000
+    Size.PlatformDefault = False
+    TabHeight = 49.000000000000000000
+    TabIndex = 3
+    TabOrder = 1
+    TabPosition = PlatformDefault
+    Sizes = (
+      468s
+      496s
+      468s
+      496s
+      468s
+      496s
+      468s
+      496s)
+    object TabItem1: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 116.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'tabitemtoprated'
+      TabOrder = 0
+      Text = 'Flow'
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object FlowLayout1: TFlowLayout
+        Align = Client
+        Padding.Left = 4.000000000000000000
+        Padding.Top = 4.000000000000000000
+        Padding.Right = 4.000000000000000000
+        Padding.Bottom = 4.000000000000000000
+        Size.Width = 468.000000000000000000
+        Size.Height = 496.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        Justify = Left
+        JustifyLastLine = Left
+        FlowDirection = LeftToRight
+        object Button1: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Button1'
+        end
+        object Button2: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 136.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Button2'
+        end
+        object Button3: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 264.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Button3'
+        end
+        object Button4: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 56.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Button4'
+        end
+        object Button5: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 136.000000000000000000
+          Position.Y = 56.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 65.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'Button5'
+        end
+        object Button6: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 264.000000000000000000
+          Position.Y = 56.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'Button6'
+        end
+        object Button7: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 129.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = 'Button7'
+        end
+        object Button8: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 136.000000000000000000
+          Position.Y = 129.000000000000000000
+          Size.Width = 185.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 7
+          Text = 'Button8'
+        end
+        object Button9: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 329.000000000000000000
+          Position.Y = 129.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 8
+          Text = 'Button9'
+        end
+        object Button10: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 177.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 9
+          Text = 'Button10'
+        end
+        object Button11: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 136.000000000000000000
+          Position.Y = 177.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 10
+          Text = 'Button11'
+        end
+        object Button12: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 264.000000000000000000
+          Position.Y = 177.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 11
+          Text = 'Button12'
+        end
+        object Button13: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 225.000000000000000000
+          Size.Width = 248.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 12
+          Text = 'Button13'
+        end
+        object Button14: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 264.000000000000000000
+          Position.Y = 225.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 13
+          Text = 'Button14'
+        end
+        object Button15: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 273.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 14
+          Text = 'Button15'
+        end
+        object Button16: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 136.000000000000000000
+          Position.Y = 273.000000000000000000
+          Size.Width = 145.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 15
+          Text = 'Button16'
+        end
+        object Button17: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 289.000000000000000000
+          Position.Y = 273.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 17
+          Text = 'Button17'
+        end
+        object Button18: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 321.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 16
+          Text = 'Button18'
+        end
+      end
+    end
+    object TabItem2: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 116.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'tabitemcontacts'
+      TabOrder = 0
+      Text = 'Grid'
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object GridLayout1: TGridLayout
+        Align = Client
+        ItemHeight = 80.000000000000000000
+        ItemWidth = 120.000000000000000000
+        Padding.Left = 4.000000000000000000
+        Padding.Top = 4.000000000000000000
+        Padding.Right = 4.000000000000000000
+        Padding.Bottom = 4.000000000000000000
+        Orientation = Horizontal
+        Size.Width = 468.000000000000000000
+        Size.Height = 496.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        object Button19: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 112.000000000000000000
+          Size.Height = 72.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Button19'
+        end
+        object Button20: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 128.000000000000000000
+          Position.Y = 8.000000000000000000
+          Size.Width = 112.000000000000000000
+          Size.Height = 72.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Button20'
+        end
+        object Button21: TButton
+          Margins.Left = 8.000000000000000000
+          Margins.Top = 8.000000000000000000
+          Margins.Right = 8.000000000000000000
+          Margins.Bottom = 8.000000000000000000
+          Position.X = 252.000000000000000000
+          Position.Y = 12.000000000000000000
+          Size.Width = 104.000000000000000000
+          Size.Height = 64.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Button21'
+        end
+        object Button22: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 112.000000000000000000
+          Size.Height = 72.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Button22'
+        end
+        object Button23: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 128.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 112.000000000000000000
+          Size.Height = 72.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'Button23'
+        end
+        object Button24: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 248.000000000000000000
+          Position.Y = 88.000000000000000000
+          Size.Width = 112.000000000000000000
+          Size.Height = 72.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'Button24'
+        end
+        object Button25: TButton
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Position.X = 8.000000000000000000
+          Position.Y = 168.000000000000000000
+          Size.Width = 112.000000000000000000
+          Size.Height = 72.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = 'Button25'
+        end
+      end
+    end
+    object TabItem3: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = False
+      Size.Width = 116.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'tabitemrecent'
+      TabOrder = 0
+      Text = 'Scaled'
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object ScaledLayout1: TScaledLayout
+        Align = Client
+        Padding.Left = 4.000000000000000000
+        Padding.Top = 4.000000000000000000
+        Padding.Right = 4.000000000000000000
+        Padding.Bottom = 4.000000000000000000
+        OriginalWidth = 468.000000000000000000
+        OriginalHeight = 496.000000000000000000
+        Size.Width = 468.000000000000000000
+        Size.Height = 496.000000000000000000
+        Size.PlatformDefault = False
+        object Button26: TButton
+          Position.X = 8.000000000000000000
+          Position.Y = 16.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = 'Button26'
+        end
+        object Button28: TButton
+          Position.X = 264.000000000000000000
+          Position.Y = 16.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'Button28'
+        end
+        object Button30: TButton
+          Position.X = 136.000000000000000000
+          Position.Y = 72.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'Button30'
+        end
+        object Button32: TButton
+          Position.X = 8.000000000000000000
+          Position.Y = 128.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Button32'
+        end
+        object Button27: TButton
+          Position.X = 136.000000000000000000
+          Position.Y = 16.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Button27'
+        end
+        object Button29: TButton
+          Position.X = 8.000000000000000000
+          Position.Y = 72.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Button29'
+        end
+        object Button31: TButton
+          Position.X = 264.000000000000000000
+          Position.Y = 72.000000000000000000
+          Size.Width = 120.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Button31'
+        end
+      end
+    end
+    object TabItem4: TTabItem
+      CustomIcon = <
+        item
+        end>
+      IsSelected = True
+      Size.Width = 118.000000000000000000
+      Size.Height = 49.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'tabitemmostrecent'
+      TabOrder = 0
+      Text = 'Grid Panel'
+      ExplicitSize.cx = 50.000000000000000000
+      ExplicitSize.cy = 49.000000000000000000
+      object GridPanelLayout1: TGridPanelLayout
+        Align = Client
+        Padding.Left = 4.000000000000000000
+        Padding.Top = 4.000000000000000000
+        Padding.Right = 4.000000000000000000
+        Padding.Bottom = 4.000000000000000000
+        Size.Width = 468.000000000000000000
+        Size.Height = 496.000000000000000000
+        Size.PlatformDefault = False
+        TabOrder = 0
+        ColumnCollection = <
+          item
+            Value = 50.000000000000000000
+          end
+          item
+            Value = 50.000000000000000000
+          end>
+        ControlCollection = <
+          item
+            Column = 0
+            Control = Button33
+            Row = 0
+          end
+          item
+            Column = 1
+            Control = Button34
+            Row = 0
+          end
+          item
+            Column = 0
+            ColumnSpan = 2
+            Control = Button35
+            Row = 1
+          end
+          item
+            Column = 0
+            Control = Button37
+            Row = 2
+          end
+          item
+            Column = 1
+            Control = Button38
+            Row = 2
+          end
+          item
+            Column = 0
+            Control = Button39
+            Row = 3
+          end
+          item
+            Column = 1
+            Control = Button40
+            Row = 3
+          end>
+        RowCollection = <
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end
+          item
+            Value = 25.000000000000000000
+          end>
+        object Button33: TButton
+          Align = Client
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Size.Width = 218.000000000000000000
+          Size.Height = 108.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 0
+          Text = 'Button33'
+        end
+        object Button34: TButton
+          Align = Client
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Size.Width = 218.000000000000000000
+          Size.Height = 108.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 1
+          Text = 'Button34'
+        end
+        object Button35: TButton
+          Align = Client
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Size.Width = 452.000000000000000000
+          Size.Height = 108.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 2
+          Text = 'Button35'
+        end
+        object Button37: TButton
+          Align = Client
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Size.Width = 218.000000000000000000
+          Size.Height = 108.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 3
+          Text = 'Button37'
+        end
+        object Button38: TButton
+          Align = Client
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Size.Width = 218.000000000000000000
+          Size.Height = 108.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 4
+          Text = 'Button38'
+        end
+        object Button39: TButton
+          Align = Client
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Size.Width = 218.000000000000000000
+          Size.Height = 108.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 5
+          Text = 'Button39'
+        end
+        object Button40: TButton
+          Align = Client
+          Margins.Left = 4.000000000000000000
+          Margins.Top = 4.000000000000000000
+          Margins.Right = 4.000000000000000000
+          Margins.Bottom = 4.000000000000000000
+          Size.Width = 218.000000000000000000
+          Size.Height = 108.000000000000000000
+          Size.PlatformDefault = False
+          TabOrder = 6
+          Text = 'Button40'
+        end
+      end
+    end
+  end
+  object GestureManager1: TGestureManager
+    Sensitivity = 80.000000000000000000
+    Left = 352
+    Top = 56
+    GestureData = <
+      item
+        Control = Owner
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end>
+  end
+end

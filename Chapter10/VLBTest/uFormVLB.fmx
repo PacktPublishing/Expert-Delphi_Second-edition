@@ -1,0 +1,37 @@
+object FormVLB: TFormVLB
+  Left = 0
+  Top = 0
+  Caption = 'Visual Live Bindings Test'
+  ClientHeight = 246
+  ClientWidth = 496
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 2
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 0
+    Position.X = 32.000000000000000000
+    Position.Y = 41.000000000000000000
+    OnKeyUp = Edit1KeyUp
+  end
+  object Label1: TLabel
+    Position.X = 168.000000000000000000
+    Position.Y = 44.000000000000000000
+    Text = 'Label1'
+    TabOrder = 1
+  end
+  object BindingsList1: TBindingsList
+    Methods = <>
+    OutputConverters = <>
+    Left = 44
+    Top = 93
+    object LinkControlToPropertyText: TLinkControlToProperty
+      Category = 'Quick Bindings'
+      Control = Edit1
+      Component = Label1
+      ComponentProperty = 'Text'
+      CustomFormat = #39'Hello '#39' + Text'
+    end
+  end
+end

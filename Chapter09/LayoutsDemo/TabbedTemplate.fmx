@@ -1,0 +1,86 @@
+object TabbedForm: TTabbedForm
+  Left = 0
+  Top = 0
+  Caption = 'TabbedForm'
+  ClientHeight = 567
+  ClientWidth = 384
+  FormFactor.Width = 1440
+  FormFactor.Height = 900
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  object HeaderToolBar: TToolBar
+    Anchors = []
+    Height = 48.000000000000000000
+    TabOrder = 0
+    Width = 384.000000000000000000
+    object ToolBarLabel: TLabel
+      Align = Contents
+      Height = 48.000000000000000000
+      StyleLookup = 'toollabel'
+      Text = 'Title'
+      TextAlign = Center
+      Width = 384.000000000000000000
+    end
+  end
+  object TabControl1: TTabControl
+    Align = Client
+    FullSize = True
+    Height = 519.000000000000000000
+    TabHeight = 49.000000000000000000
+    TabIndex = 0
+    TabOrder = 1
+    TabPosition = PlatformDefault
+    Width = 384.000000000000000000
+    object TabItem1: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = True
+      StyleLookup = 'tabitemtoprated'
+      TabOrder = 0
+      Text = 'TabItem1'
+      Width = 96.000000000000000000
+    end
+    object TabItem2: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = False
+      StyleLookup = 'tabitemcontacts'
+      TabOrder = 1
+      Text = 'TabItem2'
+      Width = 96.000000000000000000
+    end
+    object TabItem3: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = False
+      StyleLookup = 'tabitemrecent'
+      TabOrder = 2
+      Text = 'TabItem3'
+      Width = 96.000000000000000000
+    end
+    object TabItem4: TTabItem
+      WordWrap = False
+      Height = 49.000000000000000000
+      IsSelected = False
+      StyleLookup = 'tabitemmostrecent'
+      TabOrder = 3
+      Text = 'TabItem4'
+      Width = 96.000000000000000000
+    end
+  end
+  object GestureManager1: TGestureManager
+    Left = 352
+    Top = 56
+    GestureData = <
+      item
+        Control = Owner
+        Collection = <
+          item
+            GestureID = sgiLeft
+          end
+          item
+            GestureID = sgiRight
+          end>
+      end>
+  end
+end

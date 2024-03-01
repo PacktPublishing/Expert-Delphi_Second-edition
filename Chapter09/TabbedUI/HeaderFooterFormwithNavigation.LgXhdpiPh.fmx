@@ -1,0 +1,27 @@
+inherited HeaderFooterwithNavigation_LgXhdpiPh: THeaderFooterwithNavigation_LgXhdpiPh
+  ClientHeight = 829
+  ClientWidth = 480
+  OnKeyUp = FormKeyUp
+  DesignerMasterStyle = 0
+  inherited TopToolBar: TToolBar
+    Size.Width = 480.000000000000000000
+    inherited ToolBarLabel: TLabel
+      Size.Width = 480.000000000000000000
+    end
+    inherited btnBack: TSpeedButton
+      Visible = False
+    end
+    inherited btnNext: TSpeedButton
+      Position.X = 432.000000000000000000
+      Size.Width = 48.000000000000000000
+    end
+  end
+  inherited TabControl1: TTabControl
+    Size.Width = 480.000000000000000000
+    Size.Height = 741.000000000000000000
+  end
+  inherited BottomToolBar: TToolBar
+    Position.Y = 785.000000000000000000
+    Size.Width = 480.000000000000000000
+  end
+end

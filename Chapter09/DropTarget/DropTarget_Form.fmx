@@ -1,0 +1,54 @@
+object FormDrop: TFormDrop
+  Left = 0
+  Top = 0
+  Caption = 'Drop Target'
+  ClientHeight = 399
+  ClientWidth = 354
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object DropTarget1: TDropTarget
+    Align = Top
+    Filter = '*.*'
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 338.000000000000000000
+    Size.Height = 177.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Drop Files Here'
+    OnDropped = DropTarget1Dropped
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Align = Client
+    Margins.Left = 8.000000000000000000
+    Margins.Top = 8.000000000000000000
+    Margins.Right = 8.000000000000000000
+    Margins.Bottom = 8.000000000000000000
+    Size.Width = 338.000000000000000000
+    Size.Height = 190.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 334.000000000000000000
+    Viewport.Height = 186.000000000000000000
+  end
+  object MainMenu1: TMainMenu
+    Left = 72
+    Top = 104
+    object MenuItem1: TMenuItem
+      Text = 'Help'
+      object MenuItem2: TMenuItem
+        Locked = True
+        Text = 'About'
+        OnClick = MenuItem2Click
+      end
+    end
+  end
+end
