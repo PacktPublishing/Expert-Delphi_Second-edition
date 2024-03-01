@@ -1,0 +1,21 @@
+object FormHelloWorld: TFormHelloWorld
+  Left = 0
+  Top = 0
+  Caption = 'Delphi Hello World'
+  ClientHeight = 376
+  ClientWidth = 431
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object BtnHelloWorld: TButton
+    Position.X = 104.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 201.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'Hello World'
+    OnClick = BtnHelloWorldClick
+  end
+end

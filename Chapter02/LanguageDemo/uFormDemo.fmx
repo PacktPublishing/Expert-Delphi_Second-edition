@@ -1,0 +1,82 @@
+object FormDemo: TFormDemo
+  Left = 0
+  Top = 0
+  Caption = 'Object Pascal Language Demo'
+  ClientHeight = 532
+  ClientWidth = 429
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 2
+  object ButtonMultiline: TButton
+    Align = Top
+    Size.Width = 429.000000000000000000
+    Size.Height = 41.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = 'Multiline message'
+    OnClick = ButtonMultilineClick
+  end
+  object BtnPersonsTList: TButton
+    Align = Top
+    Position.Y = 41.000000000000000000
+    Size.Width = 429.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 5
+    Text = 'Persons - TList'
+    OnClick = BtnPersonsTListClick
+  end
+  object MemoLog: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    TextSettings.WordWrap = True
+    Align = Client
+    Size.Width = 429.000000000000000000
+    Size.Height = 271.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 6
+    Viewport.Width = 421.000000000000000000
+    Viewport.Height = 263.000000000000000000
+  end
+  object BtnPersonsGenerics: TButton
+    Align = Top
+    Position.Y = 85.000000000000000000
+    Size.Width = 429.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 4
+    Text = 'Persons - Generics'
+    OnClick = BtnPersonsGenericsClick
+  end
+  object BtnDoStringProc: TButton
+    Align = Top
+    Position.Y = 129.000000000000000000
+    Size.Width = 429.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 3
+    Text = 'Do String Proc'
+    OnClick = BtnDoStringProcClick
+  end
+  object BtnDocAttribute: TButton
+    Align = Top
+    Position.Y = 217.000000000000000000
+    Size.Width = 429.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = 'Doc Custom Attribute'
+    OnClick = BtnDocAttributeClick
+  end
+  object BtnRTTI: TButton
+    Align = Top
+    Position.Y = 173.000000000000000000
+    Size.Width = 429.000000000000000000
+    Size.Height = 44.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Text = 'RTTI'
+    OnClick = BtnRTTIClick
+  end
+end
